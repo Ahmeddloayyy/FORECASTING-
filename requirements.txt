@@ -2,4 +2,4 @@ streamlit
 plotly
 matplotlib
 seaborn
-statsmodels.tsa.holtwinters
+statsmodels
