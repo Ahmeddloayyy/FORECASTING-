@@ -13,7 +13,7 @@ from xgboost import XGBRegressor
 st.cache_data.clear()
 
 # Load and preprocess the data
-file_path = "C:/Users/Ahmed/Desktop/COM724/Clustering.csv" 
+file_path = pd.read_csv('Clustering.csv') 
 price_data = pd.read_csv(file_path)
 
 if "Cluster" in price_data.columns:
@@ -254,7 +254,7 @@ with tab3:
 with tab4:
     st.header("Correlation Analysis")
 
-    file_path = "C:/Users/Ahmed/Desktop/COM724/Clustering.csv" 
+    file_path = pd.read_csv('Clustering.csv')
     price_data = pd.read_csv(file_path)
 
     if "Cluster" in price_data.columns:
