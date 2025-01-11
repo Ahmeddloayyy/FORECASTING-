@@ -4,4 +4,4 @@ matplotlib
 seaborn
 statsmodels
 prophet
-sklearn
+scikit-learn
